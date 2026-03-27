@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="576.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hcs.r2a219.fxlearnapp.controller.App2Controller">
+    <children>
+        <Button layoutX="12.0" layoutY="12.0" mnemonicParsing="false" onAction="#pushBackButton" text="◀" />
+        <Label alignment="CENTER" layoutX="60.0" layoutY="10.0" prefHeight="27.0" prefWidth="200.0" text="App2">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Button layoutX="134.0" layoutY="181.0" mnemonicParsing="false" onAction="#click" text="Button" />
+        <Label fx:id="output" layoutX="146.0" layoutY="245.0" text="Label" />
+        <TextField fx:id="input" layoutX="86.0" layoutY="103.0" promptText="input"/>
+        <Button layoutX="126.0" layoutY="350.0" mnemonicParsing="false" onAction="#click2" text="最終ボタン" />
+        <Label fx:id="output2"  layoutX="46.0" layoutY="400.0" text="追加文字→" />
+        <TextField fx:id="input2" layoutX="86.0" layoutY="300.0" promptText="追加する文字"/>
+
+    </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="576.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hcs.r2a219.fxlearnapp.controller.App5Controller">
+    <children>
+        <ImageView fitHeight="576.0" fitWidth="320.0" pickOnBounds="true">
+            <image>
+                <Image url="@../../../image/cupnoodle.png" />
+            </image>
+        </ImageView>
+        <Button layoutX="12.0" layoutY="12.0" mnemonicParsing="false" onAction="#pushBackButton" text="◀" />
+        <Label alignment="CENTER" layoutX="60.0" layoutY="10.0" prefHeight="27.0" prefWidth="200.0" text="App5">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <TextField fx:id="count" alignment="CENTER" editable="true" layoutX="48.0" layoutY="145.0" prefHeight="129.0" prefWidth="155.0" text="180">
+         <font>
+            <Font size="40.0" />
+         </font></TextField>
+        <Button layoutX="48.0" layoutY="300.0" mnemonicParsing="false" onAction="#play" prefHeight="47.0" prefWidth="155.0" text="▶" textFill="#16ba3f">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+        <Button layoutX="48.0" layoutY="362.0" mnemonicParsing="false" onAction="#stop" prefHeight="47.0" prefWidth="71.0" text="■" textFill="#ed0000">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <Button layoutX="132.0" layoutY="362.0" mnemonicParsing="false" onAction="#reset" prefHeight="47.0" prefWidth="71.0" text="reset">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

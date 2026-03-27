@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="576.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hcs.r2a219.fxlearnapp.controller.App3Controller">
+    <children>
+        <ImageView fitHeight="576.0" fitWidth="320.0" layoutX="-1.0" pickOnBounds="true">
+            <image>
+                <Image url="@../../../image/fitness.png" />
+            </image>
+        </ImageView>
+        <Button layoutX="12.0" layoutY="12.0" mnemonicParsing="false" onAction="#pushBackButton" text="◀" />
+        <Label alignment="CENTER" layoutX="135.0" layoutY="13.0" prefHeight="27.0" text="App3">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <TextField fx:id="height" alignment="CENTER" layoutX="176.0" layoutY="209.0" prefWidth="100.0" promptText="height(cm)" />
+        <TextField fx:id="weight" alignment="CENTER" layoutX="176.0" layoutY="242.0" prefWidth="100.0" promptText="weight(kg)" />
+        <Button layoutX="176.0" layoutY="275.0" mnemonicParsing="false" onAction="#click" prefWidth="100.0" text="Calc" />
+        <Label fx:id="output" alignment="CENTER" layoutX="151.0" layoutY="330.0" prefWidth="150.0" text="入力待ち" textAlignment="CENTER" textFill="DEEPPINK">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+        <Label fx:id="res" alignment="CENTER" layoutX="-2.0" layoutY="70.0" prefHeight="35.0" prefWidth="320.0" text="結果は...">
+         <font>
+            <Font size="24.0" />
+         </font>
+        </Label>
+    </children>
+</AnchorPane>

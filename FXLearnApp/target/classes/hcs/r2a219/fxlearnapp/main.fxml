@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="576.0" prefWidth="320.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hcs.r2a219.fxlearnapp.controller.MainController">
+   <Label text="FXLearnApp">
+      <font>
+         <Font size="36.0" />
+      </font>
+   </Label>
+   <Button mnemonicParsing="false" onAction="#pushButtonApp1" text="App1" />
+   <Button mnemonicParsing="false" onAction="#pushButtonApp2" text="App2" />
+   <Button mnemonicParsing="false" onAction="#pushButtonApp3" text="App3" />
+   <Button mnemonicParsing="false" onAction="#pushButtonApp4" text="App4" />
+   <Button mnemonicParsing="false" onAction="#pushButtonApp5" text="App5" />
+   <Button mnemonicParsing="false" onAction="#pushButtonApp6" text="App6" />
+</VBox>
